@@ -7,7 +7,7 @@
 $InputFile = "C:\Customer.csv"
 
 # Output folder will be on the Desktop
-$OutputFolder = "C:\Users\$env:USERNAME\Desktop\Output"
+$OutputFolder = "C:\"
 
 # Output CSV file path
 $OutputFile = Join-Path $OutputFolder "Customer_Filtered.csv"
